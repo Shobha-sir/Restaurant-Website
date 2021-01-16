@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url("../images/cake.jpg");
+    background-color: white;
+    background: linear-gradient;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Baloo Chettan 2', cursive;
+
+
+
+}
+
+.title-text{
+    font-size:40px;
+    text-align: center;
+}
+
+.header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    margin-top: auto;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.hero .title{
+    color: #00000;
+    font-size: 50px;
+}
+
+.hero-button {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    border-radius: 200px;
+    font-weight: bold;
+    background-color:orange;
+    color: orange;
+    cursor: pointer;
+    border: 2px solid orange;
+    margin-top: 10px;
+}
+
+.hero-button:hover{
+    color: #FFA500;
+    background:#fff;
+    border: none;
+}
+
+.pulsate{
+    animation: pulsate 3s ease-in-out;
+    animation-iteration-count: infinite;
+    opacity: .3;
+    color: #0000;
+}
+
+@-webkit-keyframes pulsate{
+    0%{
+        opacity: .3;
+
+    }
+    50%{
+        opacity: 1;
+
+    }
+    100%{
+        opacity: .3;
+    }
+}
+}

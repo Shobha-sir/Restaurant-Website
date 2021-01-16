@@ -1,0 +1,221 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Restaurant</title>
+       <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ffc06f2f52.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'css/main.css'%}">
+
+    </head>
+<body>
+<header class="header">
+    <div class="hero">
+        <h1 class="title">Food for health</h1>
+        <a href="book_table/" class="hero-button pulsate" style="color:#000">Book a Table</a>
+    </div>
+</header>
+
+<section id="about">
+    <div>
+        <h2 class="title-text">About US</h2>
+    </div>
+    <div class="about-center">
+        <article class="about">
+            <div class="about-icon">
+                <i class="fas fa-mug-hot"></i>
+            </div>
+            <div class="about-text">
+                <a href="drinks/" class="about-subtitle" >Drinks</a>
+
+                <p class="about-info">Beverages, Soft Drinks, Cocktails </p>
+            </div>
+        </article>
+
+        <article class="about">
+            <div class="about-icon">
+                <i class="fas fa-utensils"></i>
+            </div>
+            <div class="about-text">
+                <a href="healthy_food/" class="about-subtitle">Healthy Food</a>
+                <p class="about-info"> food full of nutrients you need to maintain your health.</p>
+            </div>
+        </article>
+
+
+        <article class="about">
+            <div class="about-icon">
+                <i class="fas fa-mortar-pestle"></i>
+            </div>
+            <div class="about-text">
+                <a href="organic_food/" class="about-subtitle">Organic Food</a>
+                <p class="about-info">Fresh and Fully Organic,grown without synthetic chemicals</p>
+            </div>
+        </article>
+
+        <article class="about">
+            <div class="about-icon">
+                <i class="fas fa-birthday-cake"></i>
+            </div>
+            <div class="about-text">
+                <a href="cakes/" class="about-subtitle">Cakes</a>
+                <p class="about-info">All type of Delicious cakes availabe</p>
+            </div>
+        </article>
+
+
+        <article class="about">
+            <div class="about-icon">
+                <i class="fas fa-fish"></i>
+            </div>
+            <div class="about-text">
+                <a href="sea_food/" class="about-subtitle">Sea Food</a>
+                <p class="about-info">specializes in seafood cuisine and seafood dishes.</p>
+            </div>
+        </article>
+
+         <article class="about">
+            <div class="about-icon">
+                <i class="fas fa-pepper-hot"></i>
+            </div>
+            <div class="about-text">
+                <a href="spicy/" class="about-subtitle">Hot & Spicy</a>
+                <p class="about-info">Sizzling Hot and Spicy food that makes you crazy</p>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+
+<section class="menu" id="menu">
+    <article class="menu-image"></article>
+    <article class="menu-text">
+        <div class="menu-text-center">
+            <h1>Our Menu</h1>
+            <p>
+                Lorem, ipsum Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming. You wouldn't call delicious that what is tasteless or unpleasant
+            </p>
+            <a href="menu/">Explore</a>
+        </div>
+    </article>
+</section>
+
+<section id="social-icons">
+    <a href="#">
+        <i class="fab fa-facebook facebook"></i>
+    </a>
+    <a href="#">
+        <i class="fab fa-twitter twitter"></i>
+    </a>
+    <a href="#">
+        <i class="fab fa-instagram instagram"></i>
+    </a>
+    <a href="#">
+        <i class="fab fa-google-plus plus"></i>
+    </a>
+</section>
+
+<section id="numbers">
+    <article class="number">
+        <i class="fas fa-cloud-meatball"></i>
+        <p>50</p>
+        <a href="meat_dish/" class="hero-button pulsate" style="color:#000">Meat Dishes</a>
+
+    </article>
+
+
+
+    <article class="number">
+        <i class="fas fa-cheese"></i>
+        <p>35</p>
+        <a href="cheese_dish/" class="hero-button pulsate" style="color:#000">Cheese Dishes</a>
+
+    </article>
+
+    <article class="number">
+        <i class="fas fa-pizza-slice"></i>
+        <p>35</p>
+        <a href="pizzas/" class="hero-button pulsate" style="color:#000">Pizzas</a>
+
+    </article>
+
+    <article class="number">
+        <i class="fas fa-ice-cream"></i>
+        <p>50</p>
+        <a href="desserts/" class="hero-button pulsate" style="color:#000">Desserts</a>
+
+    </article>
+
+
+</section>
+
+<section id="food">
+    <div>
+        <h2 class="title-text">Food Fusion</h2>
+    </div>
+    <div class="food-container">
+        <article class="food-card">
+            <img src="static/images/breakfast.jpg" class="food-img" alt="">
+            <div class="img-text">
+                <h1>Breakfast</h1>
+            </div>
+            <div class="img-footer">
+                <div class="footer-icon">
+                    <i class="fas fa-dollar-sign">35</i>
+                </div>
+                <div class="footer-btn">
+                    <a href="order_breakfast/" class="hero-button pulsate" style="color:#000">Order Now</a>
+
+                </div>
+            </div>
+        </article>
+
+
+         <article class="food-card">
+            <img src="static/images/lunch.jpg" class="food-img" alt="">
+            <div class="img-text">
+                <h1>Lunch</h1>
+            </div>
+            <div class="img-footer">
+                <div class="footer-icon">
+                    <i class="fas fa-dollar-sign">40</i>
+                </div>
+                <div class="footer-btn">
+                    <a href="order_lunch/" class="hero-button pulsate" style="color:#000">Order Now</a>
+
+                </div>
+            </div>
+        </article>
+
+
+         <article class="food-card">
+            <img src="static/images/dinner.jpg" class="food-img" alt="">
+            <div class="img-text">
+                <h1>Dinner</h1>
+            </div>
+            <div class="img-footer">
+                <div class="footer-icon">
+                    <i class="fas fa-dollar-sign">50</i>
+                </div>
+                <div class="footer-btn">
+                    <a href="order_dinner/" class="hero-button pulsate" style="color:#000">Order Now</a>
+
+                </div>
+            </div>
+        </article>
+
+
+
+
+
+    </div>
+</section>
+
+
+
+</body>
+</html>
